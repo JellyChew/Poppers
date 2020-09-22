@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App button:hover {
+  background-color: #9aa5b8;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background-color: white;
+  color: rebeccapurple;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  position: relative;
+  width: 500px;
+}
+
+.popup button {
+  background-color: white;
+  color: rebeccapurple;
+  font-size: 2rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.popup button:hover {
+  background-color: #9aa5b8;
+}
